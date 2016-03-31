@@ -10,7 +10,7 @@ import pickle
 def  rectify_linear_activate(x):
     return T.maximum(x, 0.0)
 
-
+ 
 class HiddenLayer(object):
     '''
     this hidden layer is used in MLP for saving Weights and bias.
