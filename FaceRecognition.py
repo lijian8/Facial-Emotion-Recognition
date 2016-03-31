@@ -21,7 +21,7 @@ class Image_Info:
     channel = 1
     height = 64
     width = 64
-
+ 
 def load_data(data_file=r'FER.data.pkl',indexFile=None,reload=False,
               img_dir=r"H:\ReasearchData\trainningData"):
     #if data still exists,then just load the pickle-file
