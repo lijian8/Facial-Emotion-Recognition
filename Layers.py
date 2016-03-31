@@ -33,7 +33,7 @@ class LogisticRegression(object):
         self.input = Input#之所以要加这个，是为了方便以后直接修改输入矩阵就可以预测
 
         
-        
+         
     #using soft_max get predicted-label
     @staticmethod
     def do_softMax(output_matrix):
