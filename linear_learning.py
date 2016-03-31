@@ -22,7 +22,7 @@ theta0 := theta0 - alpha* d_theta0
 theta1 := theta1 - alpha* d_theta1
 损失函数的阈值:
 10-5
-'''
+''' 
 def calculate_cost_function(training_data,theta0,theta1):
     cost = 0.0
     M = len(training_data)
