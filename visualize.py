@@ -23,7 +23,7 @@ def plot_conv_weights(layer, figsize=(6, 6)):
     """Plot the weights of a specific layer.
 
     Only really makes sense with convolutional layers.
-
+ 
     Parameters
     ----------
     layer : lasagne.layers.Layer
