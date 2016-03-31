@@ -24,7 +24,7 @@ class ConvolutionLayer(object):
             indicates the shape of income ——remove in the near future
     :kernel_shape: a 4D-tuple
             (kernel_num*channels*filter_height*filter_width )
-    '''
+    ''' 
     def __init__(self,income,kernel_shape,active_function=T.tanh):
         #W:is the weights connect each conv_kernel with each last layer 
         self.W = shared(value = np.asarray(
