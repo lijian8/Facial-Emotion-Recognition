@@ -21,7 +21,7 @@ class LogisticRegression(object):
         self.W = shared(np.asarray(0.001*np.random.random((n_in,n_out)),dtype='float32'),
                         name = "LogisticRegression_W",
                         borrow = True)
-    
+     
         self.b = shared(np.asarray(0.001*np.random.random((n_out,)),dtype='float32'),
                         name = "LogisticRegression_b",
                         borrow = True)
