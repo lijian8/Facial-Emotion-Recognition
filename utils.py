@@ -11,7 +11,7 @@ import pickle
 def rectify_linear_activate(x):
     return T.maximum(x, 0.0)
 
-
+ 
 
 #load minist data set
 def load_data(filename):
