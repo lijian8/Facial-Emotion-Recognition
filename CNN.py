@@ -296,6 +296,6 @@ def train_process(cost_norm_reg_l1=0.00,cost_norm_reg_l2=0.001,#used for L1(or L
 if __name__=="__main__":
     train_process()
     
-
+ 
     
         
